@@ -1,0 +1,50 @@
+@import "desktop.css";
+
+header #moveMiddle,
+header nav,
+header nav li,
+#Ingredients .col1,
+#Ingredients .col2,
+#Ingredients .col3,
+#Ingredients .col4,
+#Ingredients .col5{
+  float:none;
+  text-align:center;
+  width:auto;
+  margin-right: 0;
+
+}
+
+.inContainer{
+  min-height: 1400px;
+}
+
+
+.locations {
+
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr ;
+
+
+  }
+
+  #map{
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  #shops{
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  #names .grid{
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+
+
+
+  }
