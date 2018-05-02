@@ -1,0 +1,181 @@
+body{
+padding:0;
+margin:0;
+background-color:orange;
+
+}
+
+
+/* Container */
+.container{
+width:80%;
+height: auto;
+margin:auto;
+overflow:hidden;
+min-width: 400px;
+
+}
+.inContainer {
+width:80%;
+height: 300px;
+margin:auto;
+overflow:hidden;
+}
+.font-container{
+margin:auto;
+max-width: 200px;
+max-height: 100px;
+background: white;
+
+}
+ul{
+margin:0;
+padding:0;
+list-style-type: none;
+}
+/* Header */
+header{
+background: green;
+padding-top:30px;
+min-height:70px;
+max-height: 50px;
+border-bottom:brown 3px solid;
+}
+header a{
+color:black;
+text-decoration:none;
+text-transform: uppercase;
+font-size:16px;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0 20px 0 20px;
+}
+header #moveMiddle{
+float:left;
+}
+
+header #moveMiddle h1{
+margin:0;
+}
+header nav{
+float:right;
+margin-top:10px;
+}
+.currentPage a{
+color:brown;
+font-weight:bold;
+}
+
+header a:hover{
+color:black;
+font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+background-image: url('../pics/sandwichh.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+font-style: oblique;
+width: 100%;
+height: 300px;
+
+
+}
+#showcase h1{
+margin-top:220px;
+}
+/* Ingredients */
+#Ingredients{
+margin-top:20px;
+
+
+}
+#Ingredients .col1{
+float:left;
+text-align: center;
+width:15%;
+margin-right: 5%;
+
+}
+#Ingredients .col2{
+float:left;
+text-align: center;
+width:15%;
+margin-right: 5%;
+
+}
+#Ingredients .col3{
+float:left;
+text-align: center;
+width:15%;
+margin-right: 5%;
+
+}
+#Ingredients .col4{
+float:left;
+text-align: center;
+width:15%;
+margin-right: 5%;
+
+}
+#Ingredients .col5{
+float:left;
+text-align: center;
+width:15%;
+margin: 0;
+
+}
+
+
+
+footer{
+padding:20px;
+margin-top:20px;
+background: green;
+}
+
+/* locations */
+
+.brownOut{
+color: brown;
+}
+
+
+
+
+.locations {
+
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr;
+
+
+  }
+
+  .map {
+    margin-top:20px;
+  }
+
+
+  /* gallery */
+  main {
+    text-align: center;
+  }
+
+
+
+  #names .grid{
+    margin:auto;
+    margin-top:20px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }

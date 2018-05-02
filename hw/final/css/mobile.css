@@ -1,0 +1,56 @@
+@import "desktop.css";
+
+header #moveMiddle,
+header nav,
+header nav li,
+#Protection .col1,
+#Protection .col2,
+#Protection .col3,
+#Protection .col4,
+#Protection .col5{
+  float:none;
+  text-align:center;
+  width:auto;
+  margin-right: 0;
+
+}
+
+.inContainer{
+  min-height: 700px;
+}
+
+
+
+
+.about {
+
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr ;
+
+
+  }
+
+  #miles{
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  #hats{
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  #names .grid{
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+
+
+
+  }
+  #contact .info{
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr;
+  }
